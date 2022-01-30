@@ -1,6 +1,6 @@
 ## Turing Complete
 
-Turing Complete: do anything that a [TM machine](https://github.com/Alperencode/Notes/blob/master/Turing-Machine/TuringMachine.md) do.
+Turing Complete: do anything that a [Turing Machine](https://github.com/Alperencode/Notes/blob/master/Turing-Machine/TuringMachine.md) do.
 
 ### 1) Conditional Branching:
 - "if statements"
