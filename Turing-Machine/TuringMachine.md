@@ -6,4 +6,4 @@ Turing Machine: The Turing machine mathematically models a machine that mechanic
 
 <br>
 
-![Tape Example](/images/TuringMachine-img.png "Tape Example")
+<img src="../images/TuringMachine-img.png">
