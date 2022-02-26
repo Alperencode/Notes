@@ -10,12 +10,12 @@ So for an example lets create an integer variable named 'x'
 x = 543
 ```
 
-<img src="../../images/How-Variables-Work2.PNG" width=300>
+<img src="../../images/How-Variables-Work2.PNG" width=400>
 
 <br>
 
 The PyObject represents the base structure for all python objects.
-For now we are just gonna focus on the type information, reference count and the actual value.
+For now we are just going to focus on ***the type information***, ***reference count*** and ***the actual value***.
 
 <br>
 
@@ -26,7 +26,7 @@ At this point reference count of the new object becomes 1 and the old object's b
 x = 543
 x = 654
 ```
-<img src="../../images/How-Variables-Work3.PNG" width=300>
+<img src="../../images/How-Variables-Work3.PNG" width=400>
 
 <br>
 
@@ -43,7 +43,7 @@ x = 543
 y = x
 ```
 
-<img src="../../images/How-Variables-Work4.PNG" width=300>
+<img src="../../images/How-Variables-Work4.PNG" width=400>
 
 <br>
 
@@ -62,19 +62,19 @@ The 'size' field is used to store the number of elements.
 x = [862,751,932]
 ```
 
-c
+<img src="../../images/How-Variables-Work5.PNG" width=400>
 
 <br>
 
 The 'value' Field will be a **pointer** to the memory location of the storage array where actual elements are stored.
-the element is not directly stored in this array instead, only pointers to the elements are stored.
+The elements are not directly stored in this array instead, only pointers to the elements are stored.
 
 <img src="../../images/How-Variables-Work6.PNG" width=600>
 
 <br>
 
 For array indexing to work, each element in the array must have same size.
-The pointer to any type of object (no matter string, integer, dictionary) will have the same size.
+**The pointer** to any type of object (no matter string, integer, dictionary) will have the same size.
 This is why we can store different type of objects in the list in python.
 
 <br>
@@ -140,5 +140,4 @@ x is y # False
 
 <br>
 
-This is because the '==' operator compares the both list object **elements by elements**.
-The 'is' keyword compares their **address**.
+This is because the '==' operator compares the both list object **elements by elements** but 'is' keyword compares their **address**.
