@@ -8,3 +8,4 @@ In this repository I'll take notes about Computer Science, general terms and thi
 - [Python Decorators](https://github.com/Alperencode/Notes/blob/master/Python-Decorators/PythonDecorators.md) : Explained decorators in python to understand it better
 - [How Variables Work](https://github.com/Alperencode/Notes/blob/master/Python-Variables/How-Variables-Work/How-Variables-Work.md) : Explained how variables exactly work and Python's data models
 - [Ai-Terms](https://github.com/Alperencode/Notes/blob/master/Ai-Terms/Ai-Terms.md) : The general terms that I'm curious about to learn what are they used for while working on a 'Yolo' Ai model
+- [Flutter-Notes](https://github.com/Alperencode/Notes/blob/master/Flutter-Notes/Flutter-Notes.md) : The notes that I'm taking while learning about flutter
