@@ -38,3 +38,26 @@ I'll keep taking notes about things to remember while learning flutter. I'll kee
 
 <img src="../images/Flutter-Notes3.png" width=600>
 <p align=center>Widgets</p>
+
+<br>
+<br>
+<br>
+
+<img src="../images/Flutter-Notes4.png" width=600>
+<p align=center>Understanding State</p>
+
+<br>
+<br>
+<br>
+
+<br>
+<br>
+<br>
+
+<img src="../images/Flutter-Notes5.png" width=600>
+<p align=center>Stateless vs Statefull</p>
+
+<br>
+<br>
+<br>
+
