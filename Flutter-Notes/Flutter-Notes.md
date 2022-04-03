@@ -50,10 +50,6 @@ I'll keep taking notes about things to remember while learning flutter. I'll kee
 <br>
 <br>
 
-<br>
-<br>
-<br>
-
 <img src="../images/Flutter-Notes5.png" width=600>
 <p align=center>Stateless vs Statefull</p>
 
@@ -61,3 +57,6 @@ I'll keep taking notes about things to remember while learning flutter. I'll kee
 <br>
 <br>
 
+
+<img src="../images/Flutter-Notes6.png" width=600>
+<p align=center>Container</p>
