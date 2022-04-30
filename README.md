@@ -13,3 +13,5 @@ In this repository I'll take notes about Computer Science, general terms and thi
     - [Term-Explanations](https://github.com/Alperencode/Notes/blob/master/Flutter-Notes/Term-Explanations.md): Expanations of general terms
     - [Code-Notes](https://github.com/Alperencode/Notes/blob/master/Flutter-Notes/Term-Explanations.md): Notes about usage of something to remember
     - [Others](https://github.com/Alperencode/Notes/blob/master/Flutter-Notes/Others.md) : The notes that don't match any category but still needed to be noted
+- [Data-Structures](https://github.com/Alperencode/Notes/blob/master/Data-Structures/) : Notes that I'm taking while taking the [Data-Structures Course](https://www.coursera.org/learn/data-structures) that University of California San Diego provides.
+    - [Arrays-and-Linked-Lists](https://github.com/Alperencode/Notes/blob/master/Data-Structures/Arrays-and-Linked-Lists/Arrays-and-Linked-Lists.md): Week 1, Arrays and Linked Lists
