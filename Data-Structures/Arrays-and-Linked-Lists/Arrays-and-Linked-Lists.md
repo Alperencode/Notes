@@ -122,7 +122,7 @@ N⠀| O(1) | O(logN) | O(N) | O(N*logN) | O(N^2)
 
 ## Linked Lists
 
-Linked lists are named kind of like links in chain. Sp we have got a ahead pointer that points to a node that then has some data and points to another node and another and eventually points to one that doesn't point any farther.
+Linked lists are named kind of like links in chain. So we have got a head pointer that points to a node that then has some data and points to another node and another and eventually points to one that doesn't point any farther.
 
 <br>
 
@@ -140,7 +140,7 @@ How this is actually work is that a node contains a key which in this case is th
 
 Operations that can be done on a linked list:
 
-(name of these sometimes are different, in different enviroments and different libraries)
+(name of these sometimes are different, in different environments and different libraries)
 
 - PushFront(Key) &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;  add to front
 - Key TopFront() &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;  return front item
