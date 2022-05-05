@@ -4,7 +4,7 @@
 
 ## Arrays
 
-Array: contiguous are of memory consisting of equal-size elements indexed by contiguous integers.
+Array: contiguous area of memory consisting of equal-size elements indexed by contiguous integers.
 
 \# How to find addres for index **i** (formula):
 
@@ -115,5 +115,85 @@ N⠀| O(1) | O(logN) | O(N) | O(N*logN) | O(N^2)
 100⠀| 1 | 7 | 100  | 700 | 10,000
 1000⠀| 1 | 10 | 1000  | 10,000 | 1,000,000
 2000⠀| 1 | 11 | 2000 | 22,000 | 2,000,000
+
+<br><hr>
+
+<br><hr>
+
+## Linked Lists
+
+Linked lists are named kind of like links in chain. Sp we have got a ahead pointer that points to a node that then has some data and points to another node and another and eventually points to one that doesn't point any farther.
+
+<br>
+
+<p align="center"> <img src="../../images/Data-Structures2.PNG" width=300> </p>
+
+How this is actually work is that a node contains a key which in this case is these integers, and a next pointer.
+
+<br>
+
+\# Head is a pointer that points to a node.
+
+<br>
+
+## List API
+
+Operations that can be done on a linked list:
+
+(name of these sometimes are different, in different enviroments and different libraries)
+
+- PushFront(Key) &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;  add to front
+- Key TopFront() &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;  return front item
+- PopFront() &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;  remove front item
+
+\# We can also do them at the end of the list ( E.g.: PopBack() )
+
+- Boolean Find(Key) &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp; is key in list?
+- Erase(Key) &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp; remove key from list
+- Boolean Empty() &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp; empty list?
+- AddBefore(Node,Key) &nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp; adds key before node
+
+<br>
+
+## Question:
+
+You have an empty list, and then do the following operations
+
+1) PushBack(a)
+2) PushFront(b)
+3) PushBack(c)
+4) PopBack
+
+What is the contents of the list now?
+
+- [ ] a,b,c
+- [x] c,b,a
+- [ ] c,b,a,d
+
+<br>
+
+## Times for Common Operations
+
+<br>
+
+⠀| no tail | with tail
+| :--- | :---: | :---:
+PushFront(Key)  | O(1) |
+TopFront()  | O(1) |
+PopFront(Key)  | O(1) |
+PushBack(Key)  | O(n) | O(1)
+TopBack()  | O(n) | O(1)
+Find(Key)  | O(n) |
+Erase(Key)  | O(n) |
+Empty()  | O(1) |
+AddBefore(Node,Key)  | O(n) |
+
+<br>
+
+\# Tail is a node that points to last element
+
+<br>
+
+<p align="center"> <img src="../../images/Data-Structures3.PNG" width=300> </p>
 
 <br><hr>
