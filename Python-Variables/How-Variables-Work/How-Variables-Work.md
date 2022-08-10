@@ -39,7 +39,7 @@ When a new variable is created by assigning existing variable python doesn't cre
 The new variable will another reference to the same object.
 
 ```python
-x = 543
+x = "Hello World"
 y = x
 ```
 
