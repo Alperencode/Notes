@@ -161,8 +161,9 @@ You have an empty list, and then do the following operations
 
 1) PushBack(a)
 2) PushFront(b)
-3) PushBack(c)
-4) PopBack
+3) PushBack(d)
+4) PushFront(c)
+5) PopBack()
 
 What is the contents of the list now?
 
