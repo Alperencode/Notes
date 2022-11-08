@@ -27,3 +27,7 @@
 - Both the actual and formal parameters refer to the same locations, so any changes made inside the function are actually reflected in actual parameters of the caller.
 
 - While calling a function, instead of passing the values of variables, we pass address of variables (location of variables) to the function known as “Call By References
+
+<br>
+
+Code example: [References in C++](https://github.com/Alperencode/C-and-CPP/blob/master/Advanced-CPP/references.cpp)
