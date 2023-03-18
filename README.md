@@ -37,3 +37,7 @@ In this repository I'll take notes about Computer Science, general terms and thi
 <hr>
 
 - [References](https://github.com/Alperencode/Notes/blob/master/References/References.md) : Difference between 'Call by value' and 'Call by reference'
+
+<hr>
+
+- [Tmux-Commands](https://github.com/Alperencode/Notes/blob/master/Tmux-Commands/Tmux-Commands.md) : Basic commands of terminal multiplexer Tmux.
