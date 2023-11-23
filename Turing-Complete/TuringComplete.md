@@ -9,4 +9,4 @@ Turing Complete: do anything that a [Turing Machine](https://github.com/Alperenc
 ### 2) Arbitrary Amounts of Memory
 It means the totality of RAM that you possess, you must be able to get as much memory as much the problem needs.
 
-(So that means none of our computers are Turing machines, because they've all got infinite memory)
+(So that means none of our computers are Turing machines, because they've all got finite memory)
